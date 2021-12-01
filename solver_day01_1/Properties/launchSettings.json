@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "solver_day01_1": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
