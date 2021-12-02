@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "solver": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
