@@ -9,7 +9,7 @@ var listOfMeasurements = System.IO.File.ReadLines(@"input1.txt")
 /// <summary>
 /// Process list and return number of items which had smaller precessors.
 /// </summary>
-int solveDay01(IList<int> input)
+int solveDay01(IEnumerable<int> input)
 {
     var numberOfIncreasingValues =
         input.Aggregate((last: int.MaxValue, count: 0),
@@ -26,11 +26,11 @@ int solveDay01(IList<int> input)
 /// <summary>
 /// Create a list which creates a sliding window sum over 3 values.
 /// </summary>
-IList<int> creatingSlidingWindowList(IList<int> input)
+IEnumerable<int> creatingSlidingWindowList(IList<int> input)
 {
-    return input.SkipLast(2).Select((val, index) => 
+    return input.SkipLast(2).Select((val, index) =>
         val + input[index + 1] + input[index + 2]
-    ).ToList();
+    );
 }
 
 Console.WriteLine($"Test1: Total: {listOfMeasurements.Count} Increasing: {solveDay01(listOfMeasurements)}");
