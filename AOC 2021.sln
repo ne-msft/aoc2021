@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "solver_day04", "solver_day0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "solver_day05", "solver_day05 - Hydrothermal venture\solver_day05.csproj", "{7256FFBF-FF8E-495B-9B3E-83B40396CE8A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "solver_day06", "solver_day06 - Lanternfish\solver_day06.csproj", "{7153BEC2-4CB0-4661-8769-842D307E076C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{7256FFBF-FF8E-495B-9B3E-83B40396CE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7256FFBF-FF8E-495B-9B3E-83B40396CE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7256FFBF-FF8E-495B-9B3E-83B40396CE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7153BEC2-4CB0-4661-8769-842D307E076C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7153BEC2-4CB0-4661-8769-842D307E076C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7153BEC2-4CB0-4661-8769-842D307E076C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7153BEC2-4CB0-4661-8769-842D307E076C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
