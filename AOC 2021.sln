@@ -16,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "solver_day03", "solver_day0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "solver_day04", "solver_day04\solver_day04.csproj", "{C22CBFE2-E2AD-47B2-AEF2-C1E771130BA0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "solver_day05", "solver_day05 - Hydrothermal venture\solver_day05.csproj", "{7256FFBF-FF8E-495B-9B3E-83B40396CE8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{C22CBFE2-E2AD-47B2-AEF2-C1E771130BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22CBFE2-E2AD-47B2-AEF2-C1E771130BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22CBFE2-E2AD-47B2-AEF2-C1E771130BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7256FFBF-FF8E-495B-9B3E-83B40396CE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7256FFBF-FF8E-495B-9B3E-83B40396CE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7256FFBF-FF8E-495B-9B3E-83B40396CE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7256FFBF-FF8E-495B-9B3E-83B40396CE8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
